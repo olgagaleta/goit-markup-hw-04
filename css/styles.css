@@ -461,6 +461,11 @@ border-radius: 0px 0px 4px 4px;
     border: 2px solid var(--icon-color);
     border-radius: 4px;
 }
+.clients-item .link {
+  color: var(--icon-color);
+    /* border: 2px solid var(--icon-color);
+    border-radius: 4px; */
+}
 
 .clients-item:hover {
   color: var(--accent-color);
@@ -470,12 +475,13 @@ border-radius: 0px 0px 4px 4px;
   outline: none;
 }
 .clients-item .link:focus {
-  outline: 2px solid var(--accent-color);
-  background-color: #2196f3;
+  /* outline: 2px solid var(--accent-color); */
+  outline: none;
+  /* background-color: #2196f3; */
 }
 
 .clients-item .icon:hover {
- fill: currentColor;
+ fill: var(--accent-color);
 }
 
 .clients-item .icon:focus {
@@ -488,7 +494,7 @@ border-radius: 0px 0px 4px 4px;
     align-items: center;
     width: 170px;
     height: 92px;
-    fill: var(--icon-color);
+    fill: currentColor;
 }
 
 /* Projects */
